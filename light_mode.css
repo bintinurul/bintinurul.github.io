@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF7E3;
+    list-style: none;
+}
+
+.big-screen {
+    height: 725px;
+}
+
+h2 {
+    font-family: Poppins;
+    font-weight: semibold;
+    font-size: 41.33px;
+    color: #655503;
+    letter-spacing: 20pt;
+    margin: 56px auto 8px auto;
+    text-align: center;
+}
+
+h3 {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    color: #655503;
+    letter-spacing: 6pt;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.switch-btn {
+    float: right;
+    margin-right: 127px;
+}
+
+p {
+    width: 123px;
+    height: 36px;
+    left: 1030px;
+    top: 200px;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 12px;
+    color: #655503;
+    margin-bottom: 8pt;
+}
+
+.toggle-off {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    left: 1121px;
+    top: 244px;
+}
+
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    outline: none;
+    filter: drop-shadow(-9px 9px 24px rgba(101, 85, 3, 0.3));
+    background-color: transparent;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 100px;
+    background-color: #FFC804;
+    color: #655503;
+    border: none;
+    text-align: right;
+    font-size: 36px;
+    border-bottom: 4px solid #655503;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+}
+
+.calculator-keys {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    height: 80px;
+    background-color: #fff;
+    border: none;
+    font-size: 32px;
+    color: #655503;
+    width: 25%;
+    outline: none;
+}
+
+.all-clear,
+.zero-btn {
+    width: 50%;
+}
+
+.zero-btn {
+    border-bottom-left-radius: 10px;
+}
+
+.operator,
+.equal-sign {
+    background-color: #FFC804;
+}
+
+.equal-sign {
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.decimal {
+    border-bottom-right-radius: 10px;
+}
+
+button:hover {
+    background-color: #CBCBCB;
+}
+
+.operator:hover,
+.equal-sign:hover {
+    background-color: #DEAD00;
+}
